@@ -1,0 +1,28 @@
+﻿{
+  "name": "uzai",
+  "description": "The grunt command line interface.",
+  "version": "0.1.11",
+  "author": {
+    "name": "uzai Team"
+  },
+  "homepage": "http://www.uzai.com/",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.1.1",
+	"grunt-contrib-qunit": "~0.3.0",
+	"grunt-contrib-nodeunit": "~0.2.2",
+	"grunt-contrib-less": "~0.8.2",
+	"grunt-contrib-sass": "~0.5.0",
+	"grunt-contrib-cssmin": "~0.6.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-concat": "~0.3.0",
+	"grunt-contrib-watch": "~0.5.3",
+	"grunt-contrib-copy": "~0.4.1"
+
+  },
+  "readme": "",
+  "readmeFilename": "README.md"
+}

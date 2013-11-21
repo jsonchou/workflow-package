@@ -10,7 +10,10 @@
 	"noarg": true,
 	"undef": true,
 	"globals": {
-		"define": true,
-		"jQuery": true
+		"window": true,
+		"jQuery": true,
+		"console": true,
+		"module": true,
+		"$": true
 	}
 }

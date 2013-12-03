@@ -41,7 +41,7 @@ module.exports = function (grunt) {
                 }
             },
             dist: {
-                src: ['libs/jquery-1.10.2.min.js', 'libs/jquery.cookie.js', 'libs/util.js'],
+                src: ['libs/jquery-1.10.2.min.js', 'libs/jquery.cookie.js', 'libs/util.js', 'scripts/src/common.js'],
                 dest: 'scripts/core.js'
             },
             subdist: {

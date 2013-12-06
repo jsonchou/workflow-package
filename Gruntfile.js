@@ -41,7 +41,7 @@ module.exports = function (grunt) {
                 }
             },
             dist: {
-                src: ['libs/jquery-1.10.2.min.js', 'libs/jquery.cookie.js', 'libs/util.js', 'scripts/src/common.js'],
+                src: ['libs/jquery-1.10.2.min.js', 'libs/jquery.cookie.js', 'libs/util.js', 'scripts/src/module.js', 'scripts/src/common.js'],
                 dest: 'scripts/core.js'
             },
             subdist: {
@@ -94,6 +94,6 @@ module.exports = function (grunt) {
     grunt.registerTask('json-concat', ['concat']);
     grunt.registerTask('json-cssmin', ['cssmin']);
     grunt.registerTask('json-copy', ['copy']);
-    grunt.registerTask('built', ['jshint', 'qunit', 'uglify', 'cssmin']);
+    grunt.registerTask('build', ['jshint', 'qunit', 'uglify', 'cssmin']);
 
 };
